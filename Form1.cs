@@ -36,7 +36,7 @@ namespace WindowsFormsApplication1
             var Y = (Single)Math.Sqrt(X);
             //или var Y = Convert.ToSingle(Math.Sqrt(X));
             label1.ForeColor = Color.Black;
-            label1.Text = string.Format(""); 
+            label1.Text = string.Format("Корень из {0} равен {1:F5}", X, Y); 
         }
 
         private void Form1_Load(object sender, EventArgs e)
